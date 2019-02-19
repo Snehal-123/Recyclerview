@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unable_to_open_camera">unable to open camera</string>
+    <string name="Image_saved">Image Saved!</string>
+</resources>

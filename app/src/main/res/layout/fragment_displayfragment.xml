@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Displayfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        style="@style/RedText"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        style="@style/RedText"
+        android:text="gallery"
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        style="@style/RedText"
+        android:text="camera"
+        android:id="@+id/camera"
+        android:layout_toRightOf="@id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@id/gallery"
+            android:id="@+id/frimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</FrameLayout>
